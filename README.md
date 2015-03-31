@@ -1,2 +1,2 @@
-# himalayan-static
-# himalayan-static
+Static site container for himalayan.io
+
