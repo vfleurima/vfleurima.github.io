@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Himalayan</title>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style type="text/css">
+      body {
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        background-image: url("bg1.jpg");        
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+/*
+      @media (max-width: 512px) {
+        body {
+          background-position: 20% 60%;
+        }
+      }
+
+      @media (min-width: 512px) {
+        body {
+          background-position: top;
+        }
+      }
+*/
+      header {        
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 72px;        
+        color: white;
+        text-shadow: 0px -1px rgba(2,3,2,.5);        
+      }    
+
+      header.subheader {
+        font-size: 24px;
+        margin-top: 150px;
+        color: rgba(255, 255, 255, 0.6);
+        text-shadow: 0px 0px;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;        
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+        background-color: rgba(51, 51, 51, .4);
+        box-sizing: border-box;
+      }
+
+      .attribution {
+        position: fixed;
+        left: 2%;
+        bottom: 2%;
+        color: rgba(55,55,55,0.3);
+      }
+
+      nav {
+        position: fixed;
+        right: 2%;
+        top: 2%;
+      }
+
+      a {
+        color: white;
+      }
+
+      a:visited {
+        color: lightgrey;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <header>Himalayan</header>
+      <header class="subheader">We are toolmakers.</header>
+      <!-- <span class="attribution">&copy; <a href="https://www.flickr.com/photos/everexplore/8634413507/in/photostream/">everexplore</a></span> -->
+      <nav>
+        <a href="mailto:vf@vfleurima.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+      </nav>
+    </div>
+  </body>
+</html>
